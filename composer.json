@@ -1,25 +1,31 @@
 {
-    "name": "illuminated/testing-tools",
+    "name": "sokolnikov911/testing-tools-updated",
     "description": "Laravel-specific Testing Helpers and Assertions.",
     "keywords": ["laravel", "testing", "tools", "helpers", "assertions", "assertion-methods", "assertion-functions"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/dmitry-ivanov/laravel-testing-tools/issues",
-        "source": "https://github.com/dmitry-ivanov/laravel-testing-tools"
+        "issues": "https://github.com/sokolnikov911/laravel-testing-tools-updated/issues",
+        "source": "https://github.com/sokolnikov911/laravel-testing-tools-updated"
     },
-    "authors": [{
-        "name": "Dmitry Ivanov",
-        "email": "dmitry.g.ivanov@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "Dmitry Ivanov",
+            "email": "dmitry.g.ivanov@gmail.com"
+        },
+        {
+            "name": "Petro Sokolnykov",
+            "email": "info@xyz.net.ua"
+        }
+    ],
     "require": {
-        "php": "^8.0.2",
-        "illuminate/database": "^9.0",
-        "illuminate/support": "^9.0",
+        "php": "~8.1|~8.2",
+        "illuminate/database": "^10.0",
+        "illuminate/support": "^10.0",
         "mockery/mockery": "^1.4.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5.10",
-        "orchestra/testbench": "^7.0"
+        "orchestra/testbench": "^8.0"
     },
     "autoload": {
         "psr-4": {
