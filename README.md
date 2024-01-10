@@ -2,33 +2,24 @@
 
 # Laravel Testing Tools
 
-[<img src="https://user-images.githubusercontent.com/1286821/181085373-12eee197-187a-4438-90fe-571ac6d68900.png" alt="Buy me a coffee" width="200" />](https://buymeacoffee.com/dmitry.ivanov)
-
-[![StyleCI](https://github.styleci.io/repos/75414626/shield?branch=master&style=flat)](https://github.styleci.io/repos/75414626?branch=master)
-[![Build Status](https://img.shields.io/github/workflow/status/dmitry-ivanov/laravel-testing-tools/tests/master)](https://github.com/dmitry-ivanov/laravel-testing-tools/actions?query=workflow%3Atests+branch%3Amaster)
-[![Coverage Status](https://img.shields.io/codecov/c/github/dmitry-ivanov/laravel-testing-tools/master)](https://app.codecov.io/gh/dmitry-ivanov/laravel-testing-tools/branch/master)
-
-![Packagist Version](https://img.shields.io/packagist/v/illuminated/testing-tools)
-![Packagist Stars](https://img.shields.io/packagist/stars/illuminated/testing-tools)
-![Packagist Downloads](https://img.shields.io/packagist/dt/illuminated/testing-tools)
-![Packagist License](https://img.shields.io/packagist/l/illuminated/testing-tools)
 
 Laravel-specific Testing Helpers and Assertions.
 
-| Laravel | Testing Tools                                                            |
-|---------|--------------------------------------------------------------------------|
-| 9.x     | [9.x](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/9.x)   |
-| 8.x     | [8.x](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/8.x)   |
-| 7.x     | [7.x](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/7.x)   |
-| 6.x     | [6.x](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/6.x)   |
-| 5.8.*   | [5.8.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.8) |
-| 5.7.*   | [5.7.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.7) |
-| 5.6.*   | [5.6.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.6) |
-| 5.5.*   | [5.5.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.5) |
-| 5.4.*   | [5.4.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.4) |
-| 5.3.*   | [5.3.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.3) |
-| 5.2.*   | [5.2.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.2) |
-| 5.1.*   | [5.1.*](https://github.com/dmitry-ivanov/laravel-testing-tools/tree/5.1) |
+| Laravel | Testing Tools                                                                    |
+|---------|----------------------------------------------------------------------------------|
+| 10.x    | [10.x](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/10.x) |
+| 9.x     | [9.x](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/9.x)   |
+| 8.x     | [8.x](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/8.x)   |
+| 7.x     | [7.x](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/7.x)   |
+| 6.x     | [6.x](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/6.x)   |
+| 5.8.*   | [5.8.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.8) |
+| 5.7.*   | [5.7.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.7) |
+| 5.6.*   | [5.6.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.6) |
+| 5.5.*   | [5.5.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.5) |
+| 5.4.*   | [5.4.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.4) |
+| 5.3.*   | [5.3.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.3) |
+| 5.2.*   | [5.2.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.2) |
+| 5.1.*   | [5.1.*](https://github.com/sokolnikov911/laravel-testing-tools-updated/tree/5.1) |
 
 ## Usage
 
@@ -341,14 +332,8 @@ Assert that the given command is not scheduled:
 $this->dontSeeInSchedule('foobarbaz');
 ```
 
-## Sponsors
-
-[![Laravel Idea](art/sponsor-laravel-idea.png)](https://laravel-idea.com)<br>
-[![Material Theme UI Plugin](art/sponsor-material-theme.png)](https://material-theme.com)<br>
-
 ## License
 
 Laravel Testing Tools is open-sourced software licensed under the [MIT license](LICENSE.md).
 
-[<img src="https://user-images.githubusercontent.com/1286821/43086829-ff7c006e-8ea6-11e8-8b03-ecf97ca95b2e.png" alt="Support on Patreon" width="125" />](https://patreon.com/dmitryivanov)&nbsp;
-[<img src="https://user-images.githubusercontent.com/1286821/181085373-12eee197-187a-4438-90fe-571ac6d68900.png" alt="Buy me a coffee" width="200" />](https://buymeacoffee.com/dmitry.ivanov)&nbsp;
+Forked from https://github.com/dmitry-ivanov/laravel-testing-tools
